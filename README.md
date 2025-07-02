@@ -1,5 +1,5 @@
 
-# 🧠 MCP Server: Multi-Tool AI Agent Using LangGraph + LangChain + Groq
+## MCP Server: Multi-Tool AI Agent Using LangGraph + LangChain + Groq
 
 This project demonstrates how to create a **multi-tool AI agent** using:
 
@@ -58,23 +58,35 @@ what is the weather in California?
 
 
 🛠 File Structure
-MCP Server/
-│
-├── .venv/                  # Virtual environment
-├── client.py               # Main agent entrypoint
-├── mathserver.py           # MCP math tool (stdio)
-├── weather_server.py       # Optional: HTTP weather tool (FastAPI)
-├── .env                    # Contains GROQ_API_KEY
-├── requirements.txt        # Dependencies
-└── README.md               # You're here!
+
+        MCP Server/
+
+        │
+        ├── .venv/                  # Virtual environment
+        
+        ├── client.py               # Main agent entrypoint
+        
+        ├── mathserver.py           # MCP math tool (stdio)
+        
+        ├── weather_server.py       # Optional: HTTP weather tool (FastAPI)
+        
+        ├── .env                    # Contains GROQ_API_KEY
+        
+        ├── requirements.txt        # Dependencies
+        
+        └── README.md               # You're here!
+
 
 
 
 🚀 Future Ideas
-Add more tools (e.g. Wikipedia, calculator, unit converter)
-Handle multiple arithmetic operations
-Stream agent responses
-Deploy as a local assistant or API
+    Add more tools (e.g. Wikipedia, calculator, unit converter)
+    
+    Handle multiple arithmetic operations
+    
+    Stream agent responses
+    
+    Deploy as a local assistant or API
 
 👨‍💻 Author
 Atul Gupta
