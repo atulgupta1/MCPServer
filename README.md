@@ -16,9 +16,12 @@ This project demonstrates how to create a **multi-tool AI agent** using:
 - Virtual environment (`.venv`) created in the project folder
 - GROQ API key (see `.env`)
 
+
 Install dependencies:
 bash
+
 .venv\Scripts\activate
+
 pip install -r requirements.txt
 
 
@@ -27,21 +30,21 @@ Create .env file with your Groq key:
 
 
 GROQ_API_KEY=your_groq_key_here
+
 Ensure your virtual environment is activated:
-
-
-.venv\Scripts\activate
-Start the MCP-compatible weather tool server:
+    .venv\Scripts\activate
+    Start the MCP-compatible weather tool server:
 
 Assumes it's running locally at http://127.0.0.1:8000/mcp
-Use FastAPI or Flask based mock server.
+    Use FastAPI or Flask based mock server.
 
 
-python weather_server.py
-Run the AI agent:
-python client.py
+    python weather_server.py
+    Run the AI agent:
+    python client.py
 
 🧮 Tools Used
+
 1. Math Tool (stdio)
     Launched from mathserver.py
     Communicates via stdin/stdout
@@ -53,8 +56,8 @@ python client.py
 
 
 
-what's (3+5)*12?
-what is the weather in California?
+    what's (3+5)*12?
+    what is the weather in California?
 
 
 🛠 File Structure
