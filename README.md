@@ -69,6 +69,7 @@ MCP Server/
 └── README.md               # You're here!
 
 
+
 🚀 Future Ideas
 Add more tools (e.g. Wikipedia, calculator, unit converter)
 Handle multiple arithmetic operations
