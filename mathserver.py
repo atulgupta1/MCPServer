@@ -9,7 +9,7 @@ def add(a:int, b:int)->int:
     """
     return a+b
 
-mcp.tool()
+@mcp.tool()
 def multiply(a:int,b:int)->int:
     """multiply two numbers"""
     return a*b
